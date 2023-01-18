@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Make profile</title>
+  </head>
+  <body style="width:100vw; height:100vh" class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="h2 font-weight-bold text-center py-3">Make your own profile</div>
+    <div class="col-10 mt-5 row" style="display: flex; justify-content: space-between; height: fit-content;">
+        <div class="col-5"> 
+          <form onsubmit="App.addProfile(); return true;">
+            <div class="form-group">
+              <label for="exampleInputFirstName">First Name</label>
+              <input type="text" class="form-control" id="exampleInputFirstName"  placeholder="Enter first name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputLastName">Last Name</label>
+              <input type="text" class="form-control" id="exampleInputLastName"  placeholder="Enter last name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPhone">Phone Number</label>
+              <input type="text" class="form-control" id="exampleInputPhone" placeholder="Enter phone">
+            </div>
+            <button type="submit" class="btn btn-outline-info">Submit</button>
+          </form>
+        </div>
+        <div class="col-5">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputTitle">Certificate title</label>
+              <input type="text" class="form-control" id="exampleInputTitle"  placeholder="Enter certificate title">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputDate">Date of certification</label>
+              <input type="email" class="form-control" id="exampleInputDate"  placeholder="Enter date of certification">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputLink">Certificate link</label>
+              <input type="email" class="form-control" id="exampleInputLink"  placeholder="Enter certificate link">
+            </div>
+            <button type="submit" class="btn btn-outline-info">Submit</button>
+          </form>
+        </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
